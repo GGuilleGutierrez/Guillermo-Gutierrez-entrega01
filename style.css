@@ -19,7 +19,7 @@ body {
 }
 
 .img {
-    background-image: url("./assets/photo-portfolio.png");
+    background-image: url("../Guillermo-Gutierrez-entrega01/assets/photo-portfolio.png");
     background-size: contain;
     background-repeat: no-repeat;
     width: 350px;
