@@ -1,0 +1,378 @@
+body {
+    background-color: #F3EBEB;
+    padding: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    background-color: #FFF;
+    padding: 16px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+    min-width: 90%;
+}
+
+.img {
+    background-image: url("/assets/photo-portfolio.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 340px;
+}
+
+.personal-info {
+    padding: 16px;
+}
+
+.name {
+    height: 50px;
+}
+
+.name h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.name p {
+    color: #828282;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    font-size: 18px;
+}
+
+svg {
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+}
+
+.contact span {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.aboutme {
+    color: #828282;
+    font-size: 18px;
+}
+
+#skills,
+#projects,
+#certificate {
+    background-color: #FFF;
+    padding: 16px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    min-width: 20px;
+}
+
+#experience-mobile,
+#experience-desktop {
+    background-color: #FFF;
+    padding: 16px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    min-width: 20px;
+}
+
+#experience-desktop {
+    display: none;
+}
+
+#skills>p {
+    color: #4F4F4F;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.techs {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+}
+
+.skills>div {
+    color: #828282;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.skills div {
+    display: flex;
+    align-items: center;
+}
+
+#progress {
+    background-color: #C4C4C4;
+    width: 250px;
+    height: 10px;
+    margin-left: 28px;
+}
+
+#html-js-progress {
+    background-color: #2F80ED;
+    width: 210px;
+    height: 10px;
+}
+
+#css-react-progress {
+    background-color: #2F80ED;
+    width: 170px;
+    height: 10px;
+}
+
+#projects p {
+    color: #4F4F4F;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.projects span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-option2,
+.projects-option3 {
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 12px 16px;
+    font-size: 18px;
+    color: #4F4F4F;
+    font-weight: 500;
+}
+
+.projects-option1 {
+    border-radius: 12px;
+    padding: 12px 16px;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    background-color: #2F80ED;
+}
+
+.tags {
+    padding-top: 30px;
+    color: #4F4F4F;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.description {
+    margin-bottom: 30px;
+}
+
+.description #title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.description #text {
+    color: #828282;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.develop-option1 {
+    padding: 12px 40px;
+    background-color: #2F80ED;
+    color: white;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.develop-option2 {
+    padding: 12px 40px;
+    border: 1px solid #2F80ED;
+    color: #2F80ED;
+    border-radius: 12px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#experience-desktop p,
+#experience-mobile p {
+    color: #4F4F4F;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.adidas-desktop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #C4C4C4;
+    border-radius: 12px;
+    min-width: 50%;
+    min-height: 250px;
+    margin-bottom: 24px;
+}
+
+.adidas {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #C4C4C4;
+    border-radius: 12px;
+    min-width: 50%;
+    min-height: 250px;
+}
+
+.adidas div {
+    width: 50%;
+}
+
+.adidas .date,
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#certificate #title,
+#certificate-desktop #title {
+    color: #4F4F4F;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#certificate-desktop {
+    display: none;
+}
+
+.only-desktop {
+    display: none;
+}
+
+@media (width > 750px) {
+    body {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        justify-content: space-around;
+    }
+
+    #header {
+        height: 30%;
+        min-width: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img {
+        margin-left: 120px;
+    }
+
+    #skills {
+        margin-left: 20px;
+        min-width: max-content;
+    }
+
+    .skills {
+        flex-direction: row;
+    }
+
+    #projects {
+        margin-left: 20px;
+        height: 8%;
+        min-width: 680px;
+    }
+
+    .projects {
+        justify-content: flex-start;
+    }
+
+    .projects span {
+        margin-right: 30px;
+    }
+
+    #develop {
+        margin-left: 20px;
+        min-width: 680px;
+        flex-direction: row;
+    }
+
+    .develop-img {
+        width: 40%;
+        height: 280px;
+    }
+
+    .description {
+        margin-left: 30px;
+    }
+
+    #experience-desktop {
+        display: flex;
+        height: 58%;
+    }
+
+    .date {
+        margin-left: 20px;
+    }
+
+    #experience-mobile {
+        display: none;
+    }
+
+    #certificate {
+        display: none;
+    }
+
+    #certificate-desktop {
+        display: flex;
+        flex-direction: column;
+        background-color: #FFF;
+        padding: 16px;
+        border-radius: 12px;
+        margin-bottom: 24px;
+        width: 245%;
+        height: 90%;
+        margin-top: -80px;
+    }
+
+    .certificates {
+        display: flex;
+        justify-content: center;
+    }
+
+    .only-desktop {
+        display: flex;
+    }
+
+    .only-mobile {
+        display: none;
+    }
+}
